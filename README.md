@@ -1,6 +1,6 @@
 # pg_wal2socket
 
---
+---
 Send Postgresql WAL content to socket.
 <br>AKA
 <br>Stream Postgresql database changes to TCP socket.
@@ -12,7 +12,7 @@ I've seen other solutions around, but they relied on LISTEN/NOTIFY, which has so
 It just works.
 
 
---
+---
 ### Small HOWTO
 
 Change config file.
@@ -38,7 +38,7 @@ $ pgbench -i  -h 127.0.0.1 -Umyuser postgres -p5445
 ```
 
 
---
+---
 ### Requisites
 
 * A running Postgresql, with logical replication enabled and wal2json plugin enabled
@@ -48,6 +48,6 @@ $ pgbench -i  -h 127.0.0.1 -Umyuser postgres -p5445
 
 
 
---
+---
 ### Thanks to
 Nathan Jennings for [Socket Programming in Python (Guide)](https://realpython.com/python-sockets/)
