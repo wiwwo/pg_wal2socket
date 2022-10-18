@@ -34,7 +34,7 @@ $ python3 pg_wal2socket-client.py localhost 8080
 Terminal 3:
 
 ```
-$ pgbench -i  -h 127.0.0.1 -Umyuser postgres -p5445
+$ pgbench -i  -h 127.0.0.1 -Uuser db 
 ```
 
 
