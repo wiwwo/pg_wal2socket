@@ -31,7 +31,7 @@ def get_repl_cursor(config):
                         ),
                      connection_factory = LogicalReplicationConnection)
   except psycopg2.OperationalError as e:
-    print('Unable to connect!\n{0}').format(e)
+    print(f"Unable to connect!\n{format(e)}")
     sys.exit(30)
 
   lcursor = lconnection.cursor()
