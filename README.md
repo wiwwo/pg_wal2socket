@@ -10,6 +10,8 @@ I've seen other solutions around, but they relied on LISTEN/NOTIFY, which has so
 <br>
 <br>Far from being "production ready", but not *that* far.
 It just works.
+<br><br>
+IMPORTANT: use of this code in business context is strictly forbidden unless with explicit consent.
 
 
 ---
